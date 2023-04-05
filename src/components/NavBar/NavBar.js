@@ -4,13 +4,19 @@ const NavBar = () =>{
     return(
         <nav className='nav'>
           <img src={Logo} alt="Logo" className='logo'/>
-           <h3>Tienda oficial Biobest</h3>
-           <div>
-            <button>Control Biologico</button>
-            <button>Polinizadores</button>
-            <button>Trampas adhesivas</button>
+           <h3 className='nombre'>Tienda oficial Biobest</h3>
+           <div className='cadena'>
+           <div className='cadena1'>
+            <button className='boton'>Control Biologico</button>
             </div>
-            <CartWidget/>
+            <div className='cadena2'>
+            <button className='boton'>Polinizadores</button>
+            </div>
+            <div className='cadena3'>
+            <button className='boton'>Trampas adhesivas</button>
+            </div>
+            </div>
+            <CartWidget className='carrito'/>
            
         </nav>
         
