@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <NavBar className='NavBar'/>
         <Routes>
-         <Route path='/' element={<ItemListContainer/>}/>
+         <Route path='/react1' element={<ItemListContainer/>}/>
           <Route path='/category/:categoryId' element={ <ItemListContainer/>}/>
           <Route path='/item/:itemId' element={ <ItemDetailContainer/>}/>
           <Route path='*' element={<h1>404 NOT FOUND</h1>}/>
