@@ -119,3 +119,9 @@ display: flex;
   border-radius: 5px;
   box-shadow: 0 2px #999;
 }
+.foto{
+  display: flex;
+  padding: 2rem;
+  padding-right: 1rem;
+  padding-top: 4.5rem;
+}

@@ -16,7 +16,9 @@ const ItemDetail = ({ product }) => {
             id: product.id,
             name: product.name,
             price: product.price,
-            stock: product.stock
+            stock: product.stock,
+            img: product.img
+
         }
 
         addItem(item, quantity)

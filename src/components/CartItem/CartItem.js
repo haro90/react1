@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const CartItem = ({ stock, name, quantity, price, img, onRemove }) => {
   const handleRemove = () => {
@@ -7,7 +7,7 @@ const CartItem = ({ stock, name, quantity, price, img, onRemove }) => {
 
   return (
     <div className="CartItem">
-      <img src={img} alt={name} />
+     <picture><img src={img} alt={"CB"} className='foto' /></picture>
 
       <h4>Nombre: {name}</h4>
       <p>Cantidad: {quantity}</p>
