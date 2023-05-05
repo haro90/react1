@@ -5,7 +5,7 @@ import CartItem from "../CartItem/CartItem";
 import { Link } from "react-router-dom";
 
 const Cart = () => {
-  const { cart, clearCart, totalQuantity, totalPrice } = useContext(
+  const { cart, clearCart, totalQuantity, totalPrice, removeItem } = useContext(
     CartContext
   );
 
@@ -23,7 +23,15 @@ const Cart = () => {
   return (
     <div>
       {cart.map((p) => (
-        <CartItem key={p.id} {...p} />
+        <CartItem
+          key={p.id}
+          stock={p.stock}
+          name={p.name}
+          quantity={p.quantity}
+          price={p.price}
+          image={p.img} 
+          onRemove={() => removeItem(p.id)}
+        />
       ))}
       <h3>Total: ${totalPrice}</h3>
       <button onClick={() => clearCart()} className="Button">
@@ -34,7 +42,6 @@ const Cart = () => {
       </Link>
     </div>
   );
-  
 };
 
-export default Cart
+export default Cart;
