@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react1/static/css/main.66ea27ce.css",
-    "main.js": "/react1/static/js/main.c2f4bf56.js",
+    "main.css": "/react1/static/css/main.7e8551f0.css",
+    "main.js": "/react1/static/js/main.b182df8e.js",
     "static/js/787.a2a5e70c.chunk.js": "/react1/static/js/787.a2a5e70c.chunk.js",
     "static/media/logo.png": "/react1/static/media/logo.3e3743201e2b4e08409c.png",
     "static/media/shopping-cart-3_icon-icons.com_63429.svg": "/react1/static/media/shopping-cart-3_icon-icons.com_63429.fa1cf64d3eb9d1cd17eebeaec2496828.svg",
     "index.html": "/react1/index.html",
-    "main.66ea27ce.css.map": "/react1/static/css/main.66ea27ce.css.map",
-    "main.c2f4bf56.js.map": "/react1/static/js/main.c2f4bf56.js.map",
+    "main.7e8551f0.css.map": "/react1/static/css/main.7e8551f0.css.map",
+    "main.b182df8e.js.map": "/react1/static/js/main.b182df8e.js.map",
     "787.a2a5e70c.chunk.js.map": "/react1/static/js/787.a2a5e70c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.66ea27ce.css",
-    "static/js/main.c2f4bf56.js"
+    "static/css/main.7e8551f0.css",
+    "static/js/main.b182df8e.js"
   ]
 }
