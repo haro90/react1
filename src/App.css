@@ -125,3 +125,130 @@ display: flex;
   padding-right: 1rem;
   padding-top: 4.5rem;
 }
+
+.CartItem{
+ padding-top: 2rem;
+  ;
+
+}
+
+.infocart{
+  padding: 1rem;
+  text-align: center;
+  max-width: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2)
+  
+}
+
+.botoneliminar{
+  background-color: #f15b10; 
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px 1px;
+    cursor: pointer;
+    width: 12%;
+}
+
+.cantidad{
+  background-color: #166423; 
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  width: 12%;
+}
+
+.Buttonl{
+  padding: 2REM;
+  background-color: #f15b10; 
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+  width: 12%;
+
+}
+
+.checkout{
+  padding: 2rem;
+  background-color: #110600; 
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  cursor: pointer;
+  width: 12%;
+}
+
+.botonoi{
+  padding-top: 2rem;
+}
+
+.containerform{
+
+  padding: 1rem;
+  text-align: center;
+  max-width: 100%;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2)
+  
+ 
+  
+}
+.form1{
+  text-align: center;
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+.name{
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid rgb(81, 81, 81);
+}
+
+.tel{
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid rgb(81, 81, 81);
+}
+
+.mail{
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid rgb(81, 81, 81);
+}
+
+.submit1{
+  padding: 2rem;
+  background-color: #110600; 
+  border: none;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 2px 1px;
+  cursor: pointer;
+  width: 25%;
+}
+

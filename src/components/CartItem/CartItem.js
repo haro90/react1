@@ -7,15 +7,15 @@ const CartItem = ({ stock, name, quantity, price, img, onRemove }) => {
 
   return (
     <div className="CartItem">
-     <picture><img src={img} alt={"CB"} className='foto' /></picture>
-
-      <h4>Nombre: {name}</h4>
-      <p>Cantidad: {quantity}</p>
-      <p>Precio: ${price}</p>
-      <p>Stock: {stock}</p>
-
-      <button onClick={handleRemove}>Eliminar</button>
-    </div>
+      <div className="infocart">
+      <h4 className="nombre">{name}</h4>
+      <h3 className="cantidad">Cantidad: {quantity}</h3>
+      <h3 className="precio">Precio: ${price}</h3>
+      <p className="stock">Stock: {stock}</p>
+      
+    <div>
+      <button onClick={handleRemove} className="botoneliminar">Eliminar Producto</button>
+    </div></div></div>
   );
 };
 

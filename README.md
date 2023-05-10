@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# Entrega final de proyecto en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## INFORMACIÓN GENERAL
+El proyecto fue creado en React para la clase de React en Coderhouse. Se subió en GitHub Pages con el siguiente enlace: https://haro90.github.io/react1/ donde se puede ver la versión final. Cabe aclarar que solo fue una clase de programación y no de diseño, por lo que el diseño quedó un poco de lado. Este proyecto tomó varios meses en desarrollo y tomó un esfuerzo grande, ya que fue realizado por una sola persona. Sin embargo, el resultado final fue satisfactorio; fue un reto grande por que el creador no tenía ninguna experiencia en el uso de dicho software.
 
-## Available Scripts
+Existen varios CSS vacíos/se decidió que por tiempo se haría prácticamente todo el diseño en dos páginas de CSS: App.css y Itemlistcontainer.css.
 
-In the project directory, you can run:
+Links de las páginas CSS mencionadas:
+- App.css
+- Itemlistcontainer.css
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Funcionamiento general del proyecto
+El proyecto es una e-commerce clásica, donde se observan "productos" y se buscan los detalles de dicho producto (pueden ser vistos por categorías), después se da la opción de agregar dichos productos a un carrito (y también la cantidad de producto). Finalmente, se revisan los totales y se da un check-out donde se llena un formulario con datos personales (para asegurar la comunicación vendedor-comprador) y se obtiene de forma automática un código/id de la transacción; mientras que para el vendedor se generará una orden en Firebase.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Generación de ID de la compra
+Al final, sí se genera una ID de compra. Además, en Firebase se hace una orden y se guarda. Aquí dejo el detalle en la siguiente imagen:
 
-### `npm test`
+![Detalle de la generación de ID de compra y la orden en Firebase](https://i.ibb.co/51v98HZ/Compra.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Además, el número en el stock se disminuye automáticamente, es decir, el stock se actualiza automáticamente.
 
-### `npm run build`
+### Lista de páginas js creadas o modificadas:
+- Cart.js
+- CartItem.js
+- CartWidget.js
+- Checkout.js
+- Checkoutform.js
+- CartContext.js
+- Item.js
+- ItemCount.js
+- ItemDetail.js
+- ItemDetailcontainer.js
+- ItemList.js
+- ItemListContainer.js
+- Navbar.js
+- firebaseConfig.js
+- App.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Finalmente agradezco las revisiones y las enseñanzas que me dejan mis tutores y compañeros.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -15,33 +15,40 @@ function CheckoutForm({ onConfirm }) {
   };
 
   return (
-    <div className="container">
-    <form onSubmit={handleSubmit}>
+    <div className="containerform">
+      <h3>Muchas gracias por la compra, por ultimo llena el siguiente formulario:</h3>
+    <form className="form1" onSubmit={handleSubmit}>
       <label>
         Nombre:
-        <input
+        <input className="name"
           type="text"
           value={name}
           onChange={({target}) => setName(target.value)}
         />
       </label>
       <label>
+      <br/>
+      <br/>
         Teléfono:
-        <input
+        <input className="tel"
           type="text"
           value={phone}
           onChange={({target}) => setPhone(target.value)}
         />
       </label>
       <label>
+      <br/>
+      <br/>
         Correo electrónico:
-        <input
+        <input className="mail"
           type="text"
           value={email}
           onChange={({target}) => setEmail(target.value)}
         />
       </label>
-      <button type="submit">Crear Orden</button>
+      <br/>
+      <br/>
+      <button className="submit1" type="submit">Obtener Codigo de Compra</button>
     </form>
     </div>
   );

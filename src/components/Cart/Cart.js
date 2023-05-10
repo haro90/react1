@@ -29,17 +29,17 @@ const Cart = () => {
           name={p.name}
           quantity={p.quantity}
           price={p.price}
-          image={p.img} 
           onRemove={() => removeItem(p.id)}
         />
       ))}
-      <h3>Total: ${totalPrice}</h3>
-      <button onClick={() => clearCart()} className="Button">
+      <h1>Total: ${totalPrice}</h1>
+      <button onClick={() => clearCart()} className="Buttonl">
         Limpiar carrito
       </button>
-      <Link to="./Checkout" className="Option">
+      <div className="botoni">
+      <Link to="./Checkout" className="checkout">
         Checkout
-      </Link>
+      </Link></div>
     </div>
   );
 };

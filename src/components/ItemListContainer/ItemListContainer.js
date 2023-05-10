@@ -25,7 +25,7 @@ const ItemListContainer = ({ greeting }) => {
           const data = doc.data();
           return { id: doc.id, ...data };
         });
-        setProducts(productsAdapted);
+        setProducts(productsAdapted.slice(0, 3));
 
         if (productsAdapted.length === 0) {
           setNotFound(true);
