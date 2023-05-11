@@ -55,6 +55,8 @@ const ItemDetail = ({ product }) => {
                 )}
             </footer>
         </article>
+        
+        
     )
 }
 

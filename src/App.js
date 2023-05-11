@@ -6,7 +6,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import Cart from './components/Cart/Cart';
 import { CartProvider } from './components/context/CartContext';
 import Checkout from './components/Checkout/Checkout';
-
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -24,8 +24,11 @@ function App() {
           </Routes>
           </CartProvider>
       </BrowserRouter>
+      <Footer />
     </div>
+    
   );
+  
 }
 
 export default App;

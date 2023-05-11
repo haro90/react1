@@ -7,7 +7,9 @@ const ItemList = ({ products }) => {
       {products.map((prod) => (
         <Item key={`${prod.id}_${prod.category}`} {...prod} />
       ))}
+       <br/>
     </div>
+    
   );
 };
 

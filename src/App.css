@@ -19,6 +19,7 @@ display: flex;
  padding: 2rem;
  padding-right: 1rem;
  padding-top: 4.5rem;
+
 }
 .cadena1{
   padding-right: 1rem;
@@ -252,3 +253,18 @@ display: flex;
   width: 25%;
 }
 
+
+.footer {
+  
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(183, 181, 181);
+  color: white;
+  text-align: center;
+}
+
+fo1{
+  padding-top: 5rem;
+}
